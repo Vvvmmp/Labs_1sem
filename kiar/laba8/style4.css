@@ -1,0 +1,81 @@
+.spisok{
+    display: none;
+    position: absolute;
+    width: 150px;
+    padding: 0;
+    margin: 0;
+    transition: opacity 0.3s;
+    visibility: hidden;
+    margin-top: 14px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.main-menu{
+    border: solid 2px black;
+    background-color: rgb(255, 255, 255);
+    width: 150px;
+    height: 30px;
+    text-align: center;
+    margin-left: 30px;
+    margin-right: 30px;
+ 
+}
+.main-menu:hover .spisok {
+    display: block;
+    visibility: visible;
+
+ }
+ li{
+    list-style-type: none;
+ }
+ .nav{
+    display: flex;
+ }
+ .main-menu:first-child{
+    margin-left: auto;
+ }
+ .main-menu:last-child{
+    margin-right: auto;
+ }
+ .main-menu li{
+    border: 1px solid black;
+    width: 100px;
+    height: 40px;
+ }
+
+
+ ul .spisok li:hover{
+   background-image: none !important;
+   padding-left: 0px !important;
+ }
+.nav li:first-child:hover{
+   background-image: url('bsty.jpg');
+  background-size: 20px 20px;
+  background-repeat: no-repeat;
+  background-position: left center;
+  padding-left: 20px;
+ }
+ .nav li:last-child:hover{
+   
+   background-size: 20px 20px;
+   background-repeat: no-repeat;
+   background-position: left center;
+   background-image: url('htit.jpg');
+   padding-left: 20px;
+ }
+ .nav li:nth-child(2):hover{
+   background-image: url('fit.jpg');
+   background-size: 20px 20px;
+   background-repeat: no-repeat;
+   background-position: left center;
+   padding-left: 20px;
+ }
+ .nav li:nth-child(3):hover{
+   background-image: url('pim.jpg');
+  background-size: 20px 20px;
+  background-repeat: no-repeat;  
+  background-position: left center;
+  padding-left: 20px;
+ }

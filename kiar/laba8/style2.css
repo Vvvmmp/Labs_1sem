@@ -1,0 +1,330 @@
+*{
+	background-color: rgb(167, 119, 156);
+}
+img{
+	border:1px solid black;
+}
+
+/*1 ЗАДАНИЕ*/
+.img1:hover{
+	transform: scale(0.5);
+}
+
+.img2:hover{
+	transform: rotate(45deg)
+}
+
+.img3:hover{
+transform: translate(50px) ;
+}
+
+.img4:hover{
+transform: rotate(-20deg);
+}
+/*2 ЗАДАНИЕ*/
+img{
+	height: 250px;
+	width: 250px;
+}
+.div1{
+	display: inline-block;
+	margin-left: 2%;
+	perspective: 400px;
+}
+
+.img2_1{
+	transform:rotateX(45deg);
+}
+
+.img2_2{
+	margin-left: 3%;
+	margin-top: 8%;
+	transform: rotateY(45deg);
+}
+
+.img2_4{	
+	transform: rotateY(-45deg);
+}
+/*3 ЗАДАНИЕ*/
+button{
+	width: 8%;
+	margin: .2%;
+	border-radius: 3px;
+	border: 1px solid black;
+}
+
+button:hover{
+border-radius: 3px;
+border:0;
+}
+
+
+
+.but1:hover{
+background: black;
+color:white;	
+}
+
+.but2:hover{
+border: 3px solid red;
+box-shadow: 0 0 0 3px yellow;
+border-radius: 3px;
+}
+
+.but3:hover{
+border-top: 3px solid green;
+border-bottom:3px solid green;
+border-radius: 3px;
+}
+
+.but4:hover{
+	border-right: 3px solid blue;
+	border-left:3px solid blue;
+	border-radius: 3px;
+
+}
+
+.but5:hover{
+	font-weight: bold;
+	border-radius: 3px;
+	background-image: radial-gradient(yellow, yellow 10%, rgb(243, 7, 243) 20%, rgb(243, 7, 243) 40%, rgb(8, 159, 209) 60%, rgb(8, 159, 209));
+}
+
+/*4 ЗАДАНИЕ*/
+
+
+.div2{
+	display: inline-flex;
+	perspective: 400px;
+
+}
+@keyframes image4-1{
+	0%,20%{
+		margin: 0px;
+    width: 10px; 
+		transform: rotateY(20deg);
+	}
+	40%, 50%{
+		margin: 0px;
+		transform: rotateY(0deg);
+		width: 25px;
+	}
+	90%, 100%{
+		margin: 0px;
+		width: 260px;
+	}
+}
+.div4-1{
+	animation:image4-1 6s alternate infinite;
+	animation-timing-function: cubic-bezier(0.395, -0.600, 0.340, 1.650);
+}
+
+
+@keyframes image4-2{
+	0%,20%{
+		margin: 0px;
+   		width: 10px; 
+		transform: rotateY(20deg);
+	}
+	40%, 50%{
+		margin: 0px;
+		transform: rotateY(0deg);
+		width: 25px;
+	}
+	90%, 100%{
+		margin: 0px;
+		width: 260px;
+		filter: blur(10px);
+	}
+}
+.div4-2{
+	animation:image4-2 6s alternate infinite;
+	animation-timing-function: cubic-bezier(0.395, -0.600, 0.340, 1.650);
+}
+
+
+@keyframes image4-3{
+	0%,20%{
+		margin: 0px;
+    width: 10px; 
+		transform: rotateY(20deg);
+	}
+	40%, 50%{
+		margin: 0px;
+		transform: rotateY(0deg);
+		width: 25px;
+	}
+	90%, 100%{
+		margin: 0px;
+		width: 260px;
+		filter: grayscale(1);
+	}
+}
+.div4-3{	
+	animation:image4-3 6s alternate infinite;
+	animation-timing-function: cubic-bezier(0.395, -0.600, 0.340, 1.650);
+}
+
+
+@keyframes image4-4{
+	0%,20%{
+		margin: 0px;
+    width: 10px; 
+		transform: rotateY(20deg);
+	}
+	40%, 50%{
+		margin: 0px;
+		transform: rotateY(0deg);
+		width: 25px;
+	}
+	90%, 100%{
+		margin: 0px;
+		width: 260px;
+		filter: invert(1);
+		border:none;
+	}
+}
+.div4-4{
+	background: none;
+	animation:image4-4 6s alternate infinite;
+	animation-timing-function: cubic-bezier(0.395, -0.600, 0.340, 1.650);
+}
+ /*5 ЗАДАНИЕ*/
+
+ @keyframes image-5{
+	0%, 10%, 100% {	background-image: url(img/images.jpg);	}
+	20%, 30% {	background-image: url(img/smile.jpg);	}
+	40%, 50% {	background-image: url(img/images.jpg);	}
+	60%, 70% {	background-image: url(img/square.jpg);	}
+	80%, 90% {	background-image: url(img/sharik.jpg);	}
+}
+
+.div5{
+	animation: image-5 5s linear infinite;
+	animation-timing-function: cubic-bezier(0.395, -0.600, 0.340, 1.650);
+	width: 250px;
+	height: 250px;
+	
+	border: 2px solid blue;
+	
+	background-size: cover;
+}
+/*6 ЗАДАНИЕ*/
+
+.div6{
+height: 1550px;
+}
+
+@keyframes image6-1{
+  0% {	transform: translateX(0px);	}
+100% {	transform: translateX(200px);	}
+}
+.img6-1{
+animation: image6-1 2s linear infinite alternate;
+}
+@keyframes image6-2{
+  0% {	transform: translateX(0px);	}
+100% {	transform: translateX(200px);
+				border-radius: 50%;	}
+}
+.img6-2{
+	animation: image6-2 2.1s linear infinite alternate;
+}
+@keyframes image6-3{
+	0% {	transform: translateX(0px);	}
+100% {	transform: translateX(1700px);	}
+}
+.img6-3{
+	animation: image6-3 2.1s linear infinite;
+}
+@keyframes image6-4{
+	0% {	transform: translateY(0px);	}
+100% {	transform: translateY(50px);	}
+}
+.img6-4{
+	animation: image6-4 2s linear infinite alternate;
+}
+@keyframes image6-5{
+	0%, 100% {
+		left: 0px;
+		top: 0px;
+}
+
+25% {
+		left: 200px;
+		top: 0px;
+}
+
+50% {
+		left: 200px;
+		top: 200px;
+}
+
+75% {
+		left: 0px;
+		top: 200px;
+}
+}
+.img6-5{
+	position: relative;
+	animation: image6-5 3s linear infinite;
+}
+
+/*7 ЗАДАНИЕ*/
+
+@keyframes div7 {
+0%,100%{}
+	10%{color:red;}
+	20%{color:white;}
+	30%{color:black;}
+	40%{color:blue;}
+	50%{color:cyan;}
+	60%{color:gold;}
+	70%{color:hotpink;}
+	80%{color:mediumpurple;}
+	90%{color:yellow;}
+}
+.div7{
+	
+	overflow: hidden;
+	width: 300px;
+	height: 300px;
+
+}
+.div7:hover{
+	animation: div7 5s linear infinite ;
+}
+/*8 ЗАДАНИЕ*/
+h1{
+	background-color: rgba(128, 128, 128, 0.381);
+}
+
+
+
+
+
+.laba8{ 
+     height: 20px;
+    display: flex
+}
+.nav{
+    border: black 1px solid;
+   list-style-type: none;
+   
+}
+a{
+    background-color: rgb(255, 255, 255);
+}
+a:visited, a:link{
+    text-decoration: none;
+}
+a:hover{
+    color: darkorange;
+}
+.nav:first-child{
+    margin-left: auto;
+   
+}
+.nav:last-child{
+margin-right: auto;  
+}

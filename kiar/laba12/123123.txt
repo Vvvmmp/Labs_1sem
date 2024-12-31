@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="css/Xml.css"?>
+<product xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xmlns="http://www.w3.org/1999/xhtml">
+     <prod1 class="product-item">
+        <name>
+            Bananas
+        </name>
+        <view>
+            <image src="./img/banana.png" alt="banana" />
+        </view>
+        <information>
+            Бананы — это сочные, ароматные тропические фрукты, покрытые тонкой жёлтой кожурой. Сладкий и нежный вкус бананов делает их идеальным угощением на завтрак или полдник. Этот природный источник витаминов, особенно витамина C и B6, придает энергию и поддерживает здоровье кожи.
+        </information>
+        <price>
+            3.99$ / 1kg
+        </price>
+    </prod1>
+
+    <prod2>
+
+    </prod2>
+
+    <prod3>
+
+    </prod3>
+
+    <prod4>
+
+    </prod4>
+
+    <prod5>
+
+    </prod5>
+</product>
+
+
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    {
+        "version": "0.2.0",
+        "configurations": [
+          {
+            "name": "Launch XML",
+            "type": "chrome",
+            "request": "launch",
+            "file": "${workspaceFolder}/shop.xml"
+          }
+        ]
+      }
+

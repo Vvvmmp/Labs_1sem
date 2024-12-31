@@ -1,0 +1,10 @@
+﻿  main.cpp
+C:\labi\oaip\laba8\laba8\dop.hpp(76,12): error C2146: синтаксическая ошибка: отсутствие ")" перед идентификатором "i"
+C:\labi\oaip\laba8\laba8\dop.hpp(76,12): error C2065: i: необъявленный идентификатор
+C:\labi\oaip\laba8\laba8\dop.hpp(76,21): error C2065: i: необъявленный идентификатор
+C:\labi\oaip\laba8\laba8\dop.hpp(76,34): error C2065: i: необъявленный идентификатор
+C:\labi\oaip\laba8\laba8\dop.hpp(76,37): error C2059: синтаксическая ошибка: )
+C:\labi\oaip\laba8\laba8\dop.hpp(77,10): error C2059: синтаксическая ошибка: ;
+C:\labi\oaip\laba8\laba8\dop.hpp(79,1): error C2059: синтаксическая ошибка: }
+C:\labi\oaip\laba8\laba8\dop.hpp(79,1): error C2143: синтаксическая ошибка: отсутствие ";" перед "}"
+C:\labi\oaip\laba8\laba8\main.cpp(7,13): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"

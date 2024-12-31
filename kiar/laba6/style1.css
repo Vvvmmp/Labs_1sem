@@ -1,0 +1,19 @@
+img{
+    
+    background-repeat: no-repeat;
+    max-width: 300px;
+    max-height: 300px;
+    
+
+}
+div{
+    display: flex;
+}
+figcaption{
+    text-align: center;
+}
+nav{
+    position: fixed; 
+    bottom: 0;
+    left: 750px
+}

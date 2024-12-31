@@ -1,0 +1,51 @@
+.nav {
+    position: relative;
+    width: 150px;
+}
+li{
+    list-style-type: none;
+}
+.main-menu{
+    border: solid 2px black;
+    background-color: rgb(255, 255, 255);
+    width: 150px;
+    height: 30px;
+    text-align: center;
+    cursor: pointer;
+}
+.spisok li{
+    border: dashed 1px black;
+    background-color: rgb(189, 189, 189); 
+    width: 90px;
+    height: 40px;
+    text-align: center; 
+}
+.spisok{
+    display: none;
+    position: absolute;
+    width: 150px;
+    padding: 0;
+    margin: 0;
+
+    visibility: hidden;
+    margin-top: 14px;
+}
+
+.spisok li:first-child{
+    border-top: 1px solid black;
+}
+a{
+    text-decoration: none;
+    color: darkcyan;
+    background-color: rgb(189, 189, 189); 
+ 
+}
+
+.main-menu:hover .spisok {
+   display: block;
+   visibility: visible;
+}
+
+
+
+

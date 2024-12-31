@@ -1,0 +1,146 @@
+#main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.product-item1, .product-item2, .product-item3 ,.product-item4 ,.product-item5 {
+    
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    margin-top: 100px;
+    width: 300px;
+    height: 300px;
+    border: 1px black dotted;
+    display: flex;
+    flex-direction: column;    
+}
+
+.product-item1 name, .product-item2 name, .product-item3 name, .product-item4 name, .product-item5 name {
+    font-weight: bold;
+    text-align: center;
+}
+
+.product-item1 information, .product-item2 information, .product-item3 information, .product-item4 information, .product-item5 information {
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.product-item1 price, .product-item2 price, .product-item3 price, .product-item4 price, .product-item5 price {
+    font-style: italic;
+    font-weight: bolder;
+    text-align: center;
+}
+
+
+.product-item1 image{
+    background-image: url("https://kipmu.ru/wp-content/uploads/bnnchrntchk-scaled.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 300px;
+    height: 100px;
+    animation: bananas 3s ease  infinite  reverse;
+  }
+  @keyframes bananas {
+      0%{
+          background-position: 0%;
+      }
+      100%{
+          background-position: 0% 100%;
+      }    
+  }
+  .product-item1{
+      background-color: rgb(206, 206, 85);
+  }
+
+
+
+  .product-item2 image{
+    background-image: url("https://www.zastavki.com/pictures/originals/2018Food_Large_ripe_red_tomatoes_with_green_leaves_128493_.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 300px;
+    height: 100px;
+    animation: Tomatoes 3s ease  infinite  reverse;
+  }
+  @keyframes Tomatoes {
+      0%{
+          background-position: 0%;
+      }
+      100%{
+          background-position: 0% 100%;
+      }    
+  }
+  .product-item2{
+      background-color: rgb(213, 90, 71)
+  }
+
+
+  .product-item3 image{
+    background-image: url("https://starnewsrus.com/wp-content/uploads/2023/03/img_641428dc5bc41.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 300px;
+    height: 100px;
+    animation: Potatoes 3s ease  infinite  reverse;
+  }
+  @keyframes Potatoes {
+      0%{
+          background-position: 0%;
+      }
+      100%{
+          background-position: 0% 100%;
+      }    
+  }
+  .product-item3{
+      background-color: rgb(181, 209, 55)
+  }
+
+
+  .product-item4 image{
+    background-image: url("https://wallpapers.com/images/hd/dark-green-cucumber-pickles-fl2ccd1fitkxk8p4.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 300px;
+    height: 100px;
+    animation: Cucumbers 3s ease  infinite  reverse;
+  }
+  @keyframes Cucumbers {
+      0%{
+          background-position: 0%;
+      }
+      100%{
+          background-position: 0% 100%;
+      }    
+  }
+  .product-item4{
+      background-color: rgba(28, 181, 84, 0.42)
+  }
+
+
+  .product-item5 image{
+    background-image: url("https://en.grandgames.net/puzzle/f1200/mandarini_v_vode.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 300px;
+    height: 100px;
+    animation: Tangerines 3s ease  infinite  reverse;
+  }
+  @keyframes Tangerines {
+      0%{
+          background-position: 0%;
+      }
+      100%{
+          background-position: 0% 100%;
+      }    
+  }
+  .product-item5{
+      background-color: rgb(181, 112, 28);
+     margin-left: auto;
+     margin-right: auto;
+  }

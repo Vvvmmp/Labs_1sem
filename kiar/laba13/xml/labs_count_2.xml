@@ -1,0 +1,22 @@
+<?xmlversion version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../xsl/labs_count_2.xsl"?>
+<CONTENT>
+    <STUDENT>
+        <NAME>Семёнов Даниил</NAME>
+        <KIAR>9</KIAR>
+        <OAIP>10</OAIP>
+        <OPI>4</OPI>
+    </STUDENT>
+     <STUDENT>
+        <NAME>Лужецкий Владислав</NAME>
+        <KIAR>9</KIAR>
+        <OAIP>10</OAIP>
+        <OPI>5</OPI>
+    </STUDENT>
+     <STUDENT>
+        <NAME>Александрович Иван</NAME>
+        <KIAR>7</KIAR>
+        <OAIP>8</OAIP>
+        <OPI>3</OPI>
+    </STUDENT>
+</CONTENT>

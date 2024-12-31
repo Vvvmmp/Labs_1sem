@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="css/Xml.css"?>
+<!DOCTYPE product SYSTEM "shop.dtd">
+<product id="main" xmlns:xsi="http://www.w3.org/2001/XMLSchema"
+ xmlns="http://www.w3.org/1999/xhtml">
+     <prod1 class="product-item1">
+        <name>
+            Bananas
+        </name>
+        <image/>
+        <information>
+            Бананы — это сочные, ароматные тропические фрукты, покрытые тонкой жёлтой кожурой. Сладкий и нежный вкус бананов делает их идеальным угощением на завтрак или полдник. Этот природный источник витаминов, особенно витамина C и B6, придает энергию и поддерживает здоровье кожи.
+        </information>
+        <price>
+            3.99$ / 1kg
+        </price>
+    </prod1>
+
+    <prod2 class="product-item2">
+        <name>
+            Tomatoes
+        </name>
+        <image/>
+        <information>
+            Помидоры - сочные и ярко-красные плоды, богатые витаминами и антиоксидантами. Их нежная текстура и сладкий вкус делают помидоры отличным выбором для свежих салатов или приготовления освежающих соусов.
+        </information>
+        <price>
+            2.87$ / 1kg
+        </price>
+    </prod2>
+
+    <prod3 class="product-item3">
+        <name>
+            Potatoes
+        </name>
+        <image/>
+        <information>
+            Картошка - универсальный продукт, который можно готовить разнообразными способами. Это крахмалистое корнеплодное растение, предоставляющее огромный спектр кулинарных возможностей.
+         </information>
+        <price>
+            0.99$ / 1kg
+        </price>
+    </prod3>
+
+    <prod4 class="product-item4">
+        <name>
+            Cucumbers
+        </name>
+        <image/>
+        <information>
+            Огурцы - это свежий и хрустящий овощ, который является прекрасным украшением салатов и освежающим компонентом в летних блюдах. Богатые водой, огурцы помогают утолять жажду и добавляют легкость в питание.
+          </information>
+        <price>
+            1.99$ / 1kg
+        </price>
+    </prod4>
+
+    <prod5 class="product-item5">
+        <name>
+            Tangerines
+        </name>
+        <image/>
+        <information>
+            Мандарины - это сочные цитрусовые, приносящие аромат и вкус в холодные зимние дни. Их ярко-оранжевая кожура и сладкий внутренний мякоть создают атмосферу тепла и праздника. Богатые витамином C.
+         </information>
+        <price>
+            5.99$ / 1kg
+        </price>
+    </prod5>
+</product>

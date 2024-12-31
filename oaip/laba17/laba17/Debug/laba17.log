@@ -1,0 +1,9 @@
+﻿  main.cpp
+C:\labi\oaip\laba17\laba17\main.hpp(10,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\labi\oaip\laba17\laba17\others.hpp(11,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\labi\oaip\laba17\laba17\others.hpp(51,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\labi\oaip\laba17\laba17\others.hpp(120,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\labi\oaip\laba17\laba17\others.hpp(188,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\labi\oaip\laba17\laba17\others.hpp(235,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\labi\oaip\laba17\laba17\others.hpp(291,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  laba17.vcxproj -> C:\labi\oaip\laba17\laba17\Debug\laba17.exe

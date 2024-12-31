@@ -1,0 +1,16 @@
+<!ELEMENT product (prod1,prod2,prod3,prod4,prod5)>
+<!ATTLIST product id NMTOKEN #REQUIRED>
+<!ELEMENT prod1 (name,image,information,price)>
+<!ATTLIST prod1 class NMTOKEN #REQUIRED>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT image EMPTY>
+<!ELEMENT information (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+<!ELEMENT prod2 (name,image,information,price)>
+<!ATTLIST prod2 class NMTOKEN #REQUIRED>
+<!ELEMENT prod3 (name,image,information,price)>
+<!ATTLIST prod3 class NMTOKEN #REQUIRED>
+<!ELEMENT prod4 (name,image,information,price)>
+<!ATTLIST prod4 class NMTOKEN #REQUIRED>
+<!ELEMENT prod5 (name,image,information,price)>
+<!ATTLIST prod5 class NMTOKEN #REQUIRED>

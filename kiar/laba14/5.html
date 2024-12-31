@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #triangle {
+            fill: url(#Gradient1);
+            transition: stroke 0.5s ease; /* Плавный переход для цвета контура */
+        }
+
+        /* #squade {
+            
+        }
+
+        #squade:hover {
+            stroke-dasharray: 200; 
+            stroke-dashoffset: 200; 
+            animation: drawBorder 2s ease forwards; 
+        } 
+         @keyframes drawBorder {
+            to {
+                stroke-dashoffset: 0;
+            }
+        }
+        */
+
+        
+
+       
+
+        #triangle:hover {
+            stroke: #ff002e; 
+        }
+
+        #svg_7:hover {
+            fill: #3f7f00; 
+        }
+    </style>
+</head>
+<body>
+    <svg width="1280" height="200" xmlns="http://www.w3.org/2000/svg" stroke="null">
+        <defs>
+            <linearGradient id="Gradient1">
+               <stop offset="0%" stop-color="green" />                           
+               <stop offset="100%" stop-color="orange" />
+            </linearGradient>            
+        </defs>
+        <g stroke="null" id="svg_22">
+            <ellipse stroke="null" ry="36.240284" rx="33.190847" id="circle" cy="46.083733" cx="485.815879" stroke-width="2.5" fill="#0015ff"/>
+
+            <rect  id="squade" height="66.473348" width="64.938615" y="13.782609" x="538.037348" fill="none" stroke="#E1E1E1" stroke-width="8"/>
+           <rect  id="squade" height="66.473348" width="64.938615" y="13.782609" x="538.037348"  transform="rotate(-90 -90 -90 -90)" fill="none"
+         stroke-dashoffset="400" stroke-dasharray="400" stroke="black" stroke-width="8">
+            <animate attributeName="stroke-dashoffset" dur="1s" begin="squade.click" values="400;0" />
+            </rect>
+
+            <ellipse stroke="null" ry="38.603781" rx="59.887833" id="svg_7" cy="43.720233" cx="674.408441" stroke-width="2.5" fill="#3f7f00">
+                <animate attributeName="fill" values="black;green" dur="0.5s" begin="click"/>
+            </ellipse>
+
+            <path stroke="null" id="triangle" d="m742.954757,80.358899l42.210102,-80.358893l42.210102,80.358893l-84.420205,0z" stroke-width="2.5" fill="#ffff00"/>
+
+            <line stroke="#5f00bf" stroke-linecap="null" stroke-linejoin="null" id="svg_18" y2="91.777976" x2="636.21909" y1="91.777976" x1="456.503356" stroke-width="6.5" fill="none"/>
+            <line stroke="#5f00bf" stroke-linecap="null" stroke-linejoin="null" id="svg_19" y2="116.98862" x2="587.102185" y1="91.777976" x1="634.723857" stroke-width="6.5" fill="none"/>
+            <line stroke="#5f00bf" stroke-linecap="null" stroke-linejoin="null" id="svg_21" y2="116.200787" x2="820.161079" y1="116.200787" x1="589.266807" fill-opacity="null" stroke-opacity="null" stroke-width="6.5" fill="none"/>
+        </g>
+    </svg>
+</body>
+</html>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../xsl/labs_count.xsl"?>
+
+<labs>
+	<prod>
+		<name>
+            Bananas
+        </name>
+		<information>
+            Бананы — это сочные, ароматные тропические фрукты, покрытые тонкой жёлтой кожурой.
+		</information>
+        <price>
+            3.99
+        </price>
+	</prod>
+	<prod>
+		<name>
+			Tomatoes
+		 </name>
+		 <image/>
+		 <information>
+			 Помидоры - сочные и ярко-красные плоды, богатые витаминами и антиоксидантами.
+		 </information>
+		 <price>
+			 2.87
+		 </price>
+	</prod>
+	<prod>
+		<name>
+            Potatoes
+        </name>
+        <image/>
+        <information>
+            Картошка - универсальный продукт, который можно готовить разнообразными способами.
+		</information>
+        <price>
+            0.99
+        </price>
+	</prod>
+	<prod>
+		<name>
+            Cucumbers
+        </name>
+        <image/>
+        <information>
+            Огурцы - это свежий и хрустящий овощ, который является прекрасным украшением салатов.
+		</information>
+        <price>
+            1.99
+        </price>
+	</prod>
+	<prod>
+		<name>
+            Tangerines
+        </name>
+        <image/>
+        <information>
+            Мандарины - это сочные цитрусовые, приносящие аромат и вкус в холодные зимние дни.
+         </information>
+        <price>
+            5.99
+        </price>
+	</prod>
+
+</labs>

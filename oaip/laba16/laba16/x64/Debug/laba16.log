@@ -1,0 +1,9 @@
+﻿  main.cpp
+C:\labi\oaip\laba16\laba16\main.hpp(18,15): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\labi\oaip\laba16\laba16\main.hpp(69,13): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\labi\oaip\laba16\laba16\others.hpp(98,8): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\labi\oaip\laba16\laba16\others.hpp(93,7): warning C4101: change: неиспользованная локальная переменная
+C:\labi\oaip\laba16\laba16\others.hpp(181,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\labi\oaip\laba16\laba16\others.hpp(214,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\labi\oaip\laba16\laba16\others.hpp(240,64): warning C4101: lval: неиспользованная локальная переменная
+  laba16.vcxproj -> C:\labi\oaip\laba16\laba16\x64\Debug\laba16.exe

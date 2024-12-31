@@ -1,0 +1,4 @@
+﻿  main.cpp
+C:\labi\oaip\laba10opi\laba10\osn.hpp(12,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\labi\oaip\laba10opi\laba10\osn.hpp(42,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  laba10.vcxproj -> C:\labi\oaip\laba10opi\laba10\x64\Debug\laba10.exe

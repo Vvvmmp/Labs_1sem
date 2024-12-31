@@ -1,0 +1,179 @@
+.zag{
+    font-size: 200%;
+    font-weight: bold;
+}
+.osn div{
+    border:1px solid black;
+    margin: 1px;
+}
+.osn{
+    display: flex;
+    flex-direction: column;
+}
+.info{
+    display: flex;
+    flex-direction: row;
+}
+.info div:nth-child(odd){
+    display: flex;
+    flex-wrap: wrap;
+    width: 20%;
+}
+.info div:nth-child(even){
+    width: 60%;
+}
+video{
+  width: 100%;
+}
+
+
+
+@media (max-width: 480px){
+    .osn div{
+      
+        margin: 1px;
+        align-items: center;
+      
+      
+    }
+    .osn{
+        display: flex;
+        flex-direction: column;
+    }
+    .info{
+     
+        flex-direction: column;
+    }
+    .info div:nth-child(odd){
+        
+        flex-wrap: wrap;
+         width: 100%;
+        
+    
+    }
+    .info div:nth-child(even){
+        width: 100%;
+    }
+    video{
+      width: 100%;
+      margin-bottom: 10px;
+    }
+
+}
+.mainmenu{
+    display: flex;
+    align-items: center;
+   
+}
+.spisok{
+    display: none;
+    position: absolute;
+    visibility: hidden;
+     padding: 0%;
+    
+}
+.spisok li{
+   margin: 3%;
+   padding: 0%;
+    border: 1px black solid;
+    width: auto;
+}
+.spisok li a{
+    text-decoration: none;
+   
+}
+.mainmenu:hover .spisok{
+    display: flex;
+visibility: visible;
+position: relative;
+}
+li{
+    list-style-type: none;
+  
+}
+@media(max-width: 480px){
+    *{
+        text-align: center;
+    }
+    .spisok{
+        display: none;
+        position: absolute;
+        visibility: hidden;
+         padding: 0%;
+         margin: 0%;
+         width: 100%;
+        
+    }
+    .spisok li{
+       margin: 3%;
+       padding: 0%;
+        border: 1px black solid;
+        width: 100%;
+    }
+    .spisok li a{
+        text-decoration: none;
+    }
+    .mainmenu:hover .spisok{
+    display: block;
+    visibility: visible;
+    }
+    li{
+        list-style-type: none;
+        border: 1px black solid;
+    }   
+    .mainmenu{
+        padding: 0%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+div img{
+    width: 250px;
+    height: 250px;
+
+    
+}
+.osn2 figure{
+    margin: 2%;
+    width: auto;
+    height: auto;
+
+   
+
+  
+}
+
+.osn2{
+    display: flex;
+    max-width: 100%;
+    flex-wrap: wrap;
+    margin-top: 20%;    
+
+}
+@media (max-width: 1280px) {
+    div figure{
+        width: 100%;
+    }
+.osn2 figure{
+    display: flex;
+    flex-direction: column;
+}
+    
+}
+
+@media (max-width: 767px){
+    p{
+        color: red;
+    }
+}
+@import url("768-1279.css");
+
+

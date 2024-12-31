@@ -1,0 +1,72 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+  }
+  
+  h3{
+    color: rgba(255,255,255,1);
+  }
+  
+  p{
+    margin: 4%;
+    margin-left: 0%;
+  }
+  
+  .div1{
+    background-color: indigo;
+    width: 28.5%;
+    padding: 1%;
+    font-size: 1.2em;
+ 
+  }
+  
+  input[type="select"],
+  input[type="date"]{
+    width: 40%;
+  }
+  
+  input[type="email"],
+  input[type="text"]{
+    border-radius: 4px;
+    width: 60%;
+    height: 2em;
+    background-color: rgba(255,255,255,.5);
+    box-shadow: inset 0 0 10px rgba(255,255,255, .75);
+  }
+  
+  input[type="button"],
+  input[type="submit"]{
+    border-color: navy;
+    box-shadow: 0 0 4px white;
+    border-radius: 3px;
+    background-color: navy;
+    color:white;
+    height: 30px;
+    padding: 5px 10px;
+    margin-left: 5px;
+  }
+  
+  .buttons {
+    margin-left: 30%;
+  }
+  
+  input:focus[type="text"]{
+    color:aliceblue;
+    background-color: black;
+  }
+  
+  label[for="female"],
+  label[for="male"]{
+    float: none;
+  }
+  
+  label {
+    color: rgba(255,255,255,1);
+    line-height: 100%;
+      float:left;
+    width: 40%;
+      height: max-content;
+  }
+  .x1{
+      margin-top: 30px;
+  }

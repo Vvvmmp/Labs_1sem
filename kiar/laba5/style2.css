@@ -1,0 +1,37 @@
+
+
+caption{
+    font-size: 1.2em;
+    
+}
+
+td{
+    border: 1px solid black;
+   
+}
+td:nth-child(2){
+    background-color: rgb(66, 129, 169);
+}
+td:nth-child(3){
+    background-color: purple;
+}
+td:nth-child(4){
+    background-color: darkgreen;
+}
+table{
+   text-align: center;
+   border-spacing: 0px;
+   empty-cells: hide;
+   color: white;
+   width: 200px;
+
+   
+}
+th{
+    background-color: darkblue;
+    font-weight: bold;
+    border: 1px solid black;
+}
+td:nth-child(1){
+    color: black;
+}

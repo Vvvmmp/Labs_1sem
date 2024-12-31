@@ -1,0 +1,8 @@
+﻿  main.cpp
+C:\labi\oaip\laba12\laba12\osn.hpp(70,24): warning C4305: инициализация: усечение из "double" в "float"
+C:\labi\oaip\laba12\laba12\osn.hpp(70,29): warning C4305: инициализация: усечение из "double" в "float"
+C:\labi\oaip\laba12\laba12\osn.hpp(71,25): warning C4305: инициализация: усечение из "double" в "float"
+C:\labi\oaip\laba12\laba12\osn.hpp(71,30): warning C4305: инициализация: усечение из "double" в "float"
+C:\labi\oaip\laba12\laba12\dop.hpp(194,12): warning C4101: j: неиспользованная локальная переменная
+C:\labi\oaip\laba12\laba12\dop.hpp(194,9): warning C4101: i: неиспользованная локальная переменная
+  laba12.vcxproj -> C:\labi\oaip\laba12\laba12\x64\Debug\laba12.exe

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    targetNamespace="http://www.w3.org/1999/xhtml">
+    <xs:element name="product">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="prod1">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="name" type="xs:string" />
+                            <xs:element name="image" />
+                            <xs:element name="information" type="xs:string" />
+                            <xs:element name="price" type="xs:string" />
+                        </xs:sequence>
+                        <xs:attribute name="class" use="required" />
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="prod2">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="name" type="xs:string" />
+                            <xs:element name="image" />
+                            <xs:element name="information" type="xs:string" />
+                            <xs:element name="price" type="xs:string" />
+                        </xs:sequence>
+                        <xs:attribute name="class" use="required" />
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="prod3">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="name" type="xs:string" />
+                            <xs:element name="image" />
+                            <xs:element name="information" type="xs:string" />
+                            <xs:element name="price" type="xs:string" />
+                        </xs:sequence>
+                        <xs:attribute name="class" use="required" />
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="prod4">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="name" type="xs:string" />
+                            <xs:element name="image" />
+                            <xs:element name="information" type="xs:string" />
+                            <xs:element name="price" type="xs:string" />
+                        </xs:sequence>
+                        <xs:attribute name="class" use="required" />
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="prod5">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="name" type="xs:string" />
+                            <xs:element name="image" />
+                            <xs:element name="information" type="xs:string" />
+                            <xs:element name="price" type="xs:string" />
+                        </xs:sequence>
+                        <xs:attribute name="class" use="required" />
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+            <xs:attribute name="id" use="required" />
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

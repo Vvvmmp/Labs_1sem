@@ -1,0 +1,40 @@
+*{
+    background: url(https://pichold.ru/wp-content/uploads/2018/10/39629559148942_zvezdnoe_nebo_noch_gory_117812_1920x1080.jpg)  no-repeat center center fixed;
+    background-size: cover;
+}
+ul.nav{
+    list-style-type: none;
+}
+ul.nav a {
+    display: block;}
+
+aside{
+    float: right;
+    width: 200px;
+    margin-right: 0%;
+}
+div>em{
+    float: left;
+    width: 1000px;
+    color: #cbcbcb;
+}
+div{
+    display: flex;
+}
+a:link{
+    text-decoration: none;
+    color: red;
+}
+a:visited{
+    color: #8B0000;
+}
+a:hover{
+    color: green;
+}
+a:active{
+    color: rgb(184, 134, 11);
+}
+a{
+    width: 150px;
+    height: 25px;
+}

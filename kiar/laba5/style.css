@@ -1,0 +1,31 @@
+table{
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 0px;
+
+}
+table th{
+    background-color: rgb(142, 164, 187);
+    border: 2px solid rgba(0, 0, 0, 0.448);
+
+}
+td{
+    font-weight: 200%;
+    height: auto;
+    border: 2px solid rgba(0, 0, 0, 0.448);
+}
+tr{
+    font-weight: 200%;
+    height: 200%;
+
+}
+.rotation{
+writing-mode: vertical-lr;
+transform: rotate(180deg);
+}
+
+td[rowspan='4']{
+    background-color: rgb(170, 165, 158);
+   
+}
+

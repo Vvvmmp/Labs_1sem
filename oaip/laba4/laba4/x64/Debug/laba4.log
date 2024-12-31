@@ -1,0 +1,11 @@
+﻿  main.cpp
+C:\labi\oaip\laba4\laba4\v1.hpp(24,10): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+C:\labi\oaip\laba4\laba4\v1.hpp(38,9): warning C4473: "printf": передано недостаточно аргументов для строки формата
+C:\labi\oaip\laba4\laba4\v1.hpp(38,9): message : заполнители и их параметры ожидают переменное число аргументов в количестве 25, но было предоставлено 24
+C:\labi\oaip\laba4\laba4\v1.hpp(38,9): message : отсутствующий вариативный аргумент "25" требуется для строки форматирования "%c"
+C:\labi\oaip\laba4\laba4\v1.hpp(41,102): warning C4474: "printf" : для строки формата передано слишком много аргументов
+C:\labi\oaip\laba4\laba4\v1.hpp(41,102): message : заполнители и их параметры ожидают переменное число аргументов в количестве 17, но было предоставлено 18
+C:\labi\oaip\laba4\laba4\v1.hpp(42,82): warning C4474: "printf" : для строки формата передано слишком много аргументов
+C:\labi\oaip\laba4\laba4\v1.hpp(42,82): message : заполнители и их параметры ожидают переменное число аргументов в количестве 13, но было предоставлено 18
+C:\labi\oaip\laba4\laba4\main.cpp(9,12): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+  laba4.vcxproj -> C:\labi\oaip\laba4\laba4\x64\Debug\laba4.exe

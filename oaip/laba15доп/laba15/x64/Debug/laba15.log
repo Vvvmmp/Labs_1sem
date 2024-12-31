@@ -1,0 +1,10 @@
+﻿  main.cpp
+C:\labi\oaip\laba15доп\laba15\main.hpp(8,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\labi\oaip\laba15доп\laba15\main.hpp(4,50): warning C4101: lastpos: неиспользованная локальная переменная
+C:\labi\oaip\laba15доп\laba15\main.hpp(56,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\labi\oaip\laba15доп\laba15\others.hpp(10,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\labi\oaip\laba15доп\laba15\others.hpp(130,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\labi\oaip\laba15доп\laba15\others.hpp(166,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\labi\oaip\laba15доп\laba15\others.hpp(243,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\labi\oaip\laba15доп\laba15\others.hpp(296,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  laba15.vcxproj -> C:\labi\oaip\laba15доп\laba15\x64\Debug\laba15.exe

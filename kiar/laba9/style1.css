@@ -1,0 +1,18 @@
+.container{
+display: grid;
+grid-template-columns: 50px 10px 300px 10px 300px auto 300px 10px 300px 10px 50px;
+grid-template-rows: 300px;
+
+}
+.title{
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    border: 2px solid black;
+    line-height: 2.8    ;
+}
+.cell1{
+    border: 2px solid black;
+}
+.cell2{
+    border: 2px solid black;
+}

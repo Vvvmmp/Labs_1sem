@@ -1,0 +1,6 @@
+﻿  n1.cpp
+C:\labi\oaip\laba3\4444getYourDreams\dop2\n2.hpp(9,21): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+C:\labi\oaip\laba3\4444getYourDreams\dop2\n2.hpp(10,14): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+C:\labi\oaip\laba3\4444getYourDreams\dop2\n1.cpp(12,25): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+C:\labi\oaip\laba3\4444getYourDreams\dop2\n1.cpp(13,24): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+  dop2.vcxproj -> C:\labi\oaip\laba3\4444getYourDreams\Debug\dop2.exe

@@ -1,0 +1,8 @@
+﻿  dop1.hpp
+C:\labi\oaip\laba5\laba5\dop1.hpp(11,70): warning C4552: "+": результат выражения не используется
+  n3.hpp
+  osnova.cpp
+C:\labi\oaip\laba5\laba5\dop1.hpp(11,70): warning C4552: "+": результат выражения не используется
+C:\labi\oaip\laba5\laba5\osnova.cpp(11,13): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+  Создание кода...
+  laba5.vcxproj -> C:\labi\oaip\laba5\laba5\x64\Debug\laba5.exe

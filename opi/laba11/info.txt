@@ -1,0 +1,21 @@
+$ git clone https://github.com/Vvvmmp/OPI_lab11.git
+
+*создаём файл и коммитим его*
+
+$ git remote add origin <url>(проверка: git remote -v)
+
+$ git push origin master
+...................................................
+$ git pull origin master (извлекает изменения из удаленной ветки master в локальный репозиторий)
+
+********
+
+git checkout <хеш>
+
+********
+
+$ git fetch origin
+
+$ git merge origin/master
+
+

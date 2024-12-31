@@ -1,0 +1,10 @@
+﻿  main.cpp
+C:\labi\oaip\laba9\laba9\osn.hpp(58,28): warning C4101: y: неиспользованная локальная переменная
+C:\labi\oaip\laba9\laba9\osn.hpp(58,9): warning C4101: h: неиспользованная локальная переменная
+C:\labi\oaip\laba9\laba9\dop.hpp(56,28): warning C4101: y: неиспользованная локальная переменная
+C:\labi\oaip\laba9\laba9\dop.hpp(56,9): warning C4101: h: неиспользованная локальная переменная
+C:\labi\oaip\laba9\laba9\dop.hpp(128,28): warning C4101: y: неиспользованная локальная переменная
+C:\labi\oaip\laba9\laba9\dop.hpp(128,9): warning C4101: h: неиспользованная локальная переменная
+C:\labi\oaip\laba9\laba9\dop.hpp(202,28): warning C4101: y: неиспользованная локальная переменная
+C:\labi\oaip\laba9\laba9\dop.hpp(202,9): warning C4101: h: неиспользованная локальная переменная
+  laba9.vcxproj -> C:\labi\oaip\laba9\laba9\x64\Debug\laba9.exe

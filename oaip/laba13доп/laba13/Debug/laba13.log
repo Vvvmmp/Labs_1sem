@@ -1,0 +1,7 @@
+﻿  main.cpp
+C:\labi\oaip\laba13\laba13\osn.hpp(17,23): warning C4018: <: несоответствие типов со знаком и без знака
+C:\labi\oaip\laba13\laba13\dop.hpp(52,35): warning C4018: <: несоответствие типов со знаком и без знака
+C:\labi\oaip\laba13\laba13\dop.hpp(86,53): warning C4018: <: несоответствие типов со знаком и без знака
+C:\labi\oaip\laba13\laba13\dop.hpp(95,32): warning C4018: <: несоответствие типов со знаком и без знака
+C:\labi\oaip\laba13\laba13\dop.hpp(123,10): warning C4018: >: несоответствие типов со знаком и без знака
+  laba13.vcxproj -> C:\labi\oaip\laba13\laba13\Debug\laba13.exe
